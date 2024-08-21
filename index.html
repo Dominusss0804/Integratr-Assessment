@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "./styles.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "basket basket1">
+            <h2>Basket A<span class = "basketCount basketA">0</span></h2>
+            <div id = "inventoryListA">
+
+            </div>
+            <div class = "inputs">
+                <input type = "text" id = "fruitA" class = "fruits" placeholder = "Name">
+                <input type = "number" id = "quantityA" class = "quantity" placeholder = "Qty">
+                <button class = "addItem A">+</button>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="moveToLeft" class="arrow">&larr;</button>
+            <button id="moveToRight" class="arrow">&rarr;</button>
+        </div>
+        <div class = "basket basket2">
+            <h2>Basket B<span class = "basketCount basketB">0</span></h2>
+            <div id = "inventoryListB">
+
+            </div>
+            <div class = "inputs">
+                <input type = "text" id = "fruitB" class = "fruits" placeholder = "Name">
+                <input type = "number" id = "quantityB" class = "quantity" placeholder = "Qty">
+                <button class = "addItem B">+</button>
+            </div>
+        </div>
+    </div>
+    <script src = "./index.js"></script>
+</body>
+</html>
